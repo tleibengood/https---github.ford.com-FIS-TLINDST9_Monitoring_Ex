@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FIS-AOTW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FIS-AOTW/FIS-AOTW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FISHealthMonitor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FISSupportMonitor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Monitoring" vcs="Git" />
+  </component>
+</project>

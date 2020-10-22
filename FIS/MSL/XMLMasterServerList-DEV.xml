@@ -1,0 +1,525 @@
+<?xml-stylesheet type="text/xsl" href="MasterServerList2.xsl" version="1.0" encoding="ISO-8859-1" ?>
+<ServerInfo>
+	<Row>
+		<Site Code="DEV-PTO" BuildingCode="5297" FISVersion="DEV Package" Region="NA" ShowPlantList="True" UnionLogo="BlankLogo.png">
+			<SiteName><![CDATA[DEV-PTO]]></SiteName>
+			<ITManager CDSID="PDEERY2" OnSplashScreen="True"><![CDATA[Pat Deery (PDEERY2)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2012 R2 Standard">SDG08375.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2012 R2 Standard">SDG08379.itek.ford.com</ODB>
+			<RTDB-PRI OSVersion="Windows 2012 R2 Standard">SDG08378.itek.ford.com</RTDB-PRI>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+				<ExtLink LinkName="Open Launch Issues" LinkDesc="Open Launch Issues">
+					<![CDATA[https://fis2go.ford.com/x/FISOpenLaunchIssues]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="ru-RU" CultureCode="0x0419" Icon="rus.png" ISO639-1="RU" ISO639-2="RUS" ISO639x="RUS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[http://SDG08375.itek.ford.com/FISHM]]></HealthMon>
+				<HomePage><![CDATA[https://SDG08375.itek.ford.com/FIS]]></HomePage>
+				<SupportMon><![CDATA[https://it2.spt.ford.com/sites/pfs/apps/FIS/ops/docs/SupportMonFiles/FIS_Support_Monitor_DEV_PTO.htm]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG08375.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG08375.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG08375.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG08375.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG08379.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG08379.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05777.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG08375.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="False">
+					<AreaName><![CDATA[LTP_10RGEARS]]></AreaName>
+					<FISAdmin CDSID="BDEGUIRE" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="AFBWsG/z" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08376.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG08376.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG08376.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG08376.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08379.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG08376.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB_781U" DBName-EG="EGatewayDB2" InLaunch="True">
+					<AreaName><![CDATA[LTP_10RASSY]]></AreaName>
+					<FISAdmin CDSID="BDEGUIRE" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="AFBWsALK" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="True" P3Linked="False" LMAFullScreen="True">SDG08377.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG08377.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG08377.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG08377.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08379.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG08377.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Current Inventory Levels"><![CDATA[run.asp?dir=inventory&bo=&areaid=2&apserver=SDG08377.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+		<Site Code="DEV-PTO2" BuildingCode="5297" FISVersion="Not Assigned" Region="NA" ShowPlantList="True" UnionLogo="UAWLogo.png">
+			<SiteName><![CDATA[DEV-PTO2]]></SiteName>
+			<ITManager CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Neil Gan (LGAN4)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2016 Standard">SDG08440.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2016 Standard">SDG08442.itek.ford.com</ODB>
+			<RTDB-PRI OSVersion="Windows 2016 Standard">SDG08441.itek.ford.com</RTDB-PRI>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+				<ExtLink LinkName="Open Launch Issues" LinkDesc="Open Launch Issues">
+					<![CDATA[https://fis2go.ford.com/x/FISOpenLaunchIssues]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="ru-RU" CultureCode="0x0419" Icon="rus.png" ISO639-1="RU" ISO639-2="RUS" ISO639x="RUS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[Not Assigned]]></HealthMon>
+				<HomePage><![CDATA[Not Assigned]]></HomePage>
+				<SupportMon><![CDATA[Not Assigned]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG08440.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG08440.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG08440.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG08440.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG08442.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG08442.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05777.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG08440.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="True">
+					<AreaName><![CDATA[Area 1]]></AreaName>
+					<FISAdmin CDSID="KMARK11" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2016 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08438.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG08438.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG08438.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG08438.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08442.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG08438.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB2" DBName-EG="EGatewayDB2" InLaunch="True">
+					<AreaName><![CDATA[Area 2]]></AreaName>
+					<FISAdmin CDSID="KMARK11" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2016 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08439.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG08439.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG08439.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG08439.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08442.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG08439.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+	</Row>
+	<Row>
+		<Site Code="DEV-PTO-NG" BuildingCode="5297" FISVersion="Not Assigned" Region="NA" ShowPlantList="True" UnionLogo="UAWLogo.png">
+			<SiteName><![CDATA[DEV-PTO Next Gen]]></SiteName>
+			<ITManager CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Neil Gan (LGAN4)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2012 R2 Standard">SDG04201.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2012 R2 Standard">SDG04205.itek.ford.com</ODB>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+				<ExtLink LinkName="Open Launch Issues" LinkDesc="Open Launch Issues">
+					<![CDATA[https://fis2go.ford.com/x/FISOpenLaunchIssues]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[Not Assigned]]></HealthMon>
+				<HomePage><![CDATA[Not Assigned]]></HomePage>
+				<SupportMon><![CDATA[Not Assigned]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG04201.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG04201.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG04201.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG04201.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG04205.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG04205.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05777.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG04201.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="True">
+					<AreaName><![CDATA[Area 1]]></AreaName>
+					<FISAdmin CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG04202.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG04202.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG04202.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG04202.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG04205.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG04202.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB2" DBName-EG="EGatewayDB2" InLaunch="True">
+					<AreaName><![CDATA[Area 2]]></AreaName>
+					<FISAdmin CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG04203.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG04203.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG04203.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG04203.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG04205.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG04203.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+		<Site Code="DEV-VO" BuildingCode="5297" FISVersion="DEV Package" Region="NA" ShowPlantList="True" UnionLogo="BlankLogo.png">
+			<SiteName><![CDATA[DEV-VO]]></SiteName>
+			<ITManager CDSID="PDEERY2" OnSplashScreen="True"><![CDATA[Pat Deery (PDEERY2)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2012 R2 Standard">SDG08382.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2012 R2 Standard">SDG08386.itek.ford.com</ODB>
+			<RTDB-PRI OSVersion="Windows 2012 R2 Standard">SDG08385.itek.ford.com</RTDB-PRI>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="ru-RU" CultureCode="0x0419" Icon="rus.png" ISO639-1="RU" ISO639-2="RUS" ISO639x="RUS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[https://SDG08382.itek.ford.com/FISHM]]></HealthMon>
+				<HomePage><![CDATA[https://SDG08382.itek.ford.com/FIS]]></HomePage>
+				<SupportMon><![CDATA[https://it2.spt.ford.com/sites/pfs/apps/FIS/ops/docs/SupportMonFiles/FIS_Support_Monitor_DEV_VO.htm]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG08382.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG08382.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG08382.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG08382.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG08386.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG08386.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05771.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG08382.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="False">
+					<AreaName><![CDATA[CAP_BODY]]></AreaName>
+					<FISAdmin CDSID="KMARK11" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="AFBWsOpt" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08383.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG08383.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG08383.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG08383.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08386.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG08383.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB_KTPBML" DBName-EG="EGatewayDB2" InLaunch="False">
+					<AreaName><![CDATA[KTPBODY]]></AreaName>
+					<FISAdmin CDSID="KMARK11" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="AFBWsBB+" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08384.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG08384.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG08384.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG08384.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08386.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG08384.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+	</Row>
+	<Row>
+		<Site Code="DEV-VO2" BuildingCode="5297" FISVersion="DEV Package" Region="NA" ShowPlantList="True" UnionLogo="UAWLogo.png">
+			<SiteName><![CDATA[DEV-VO2]]></SiteName>
+			<ITManager CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Neil Gan (LGAN4)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2016 Standard">SDG08418.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2016 Standard">SDG08426.itek.ford.com</ODB>
+			<RTDB-PRI OSVersion="Windows 2016 Standard">SDG08427.itek.ford.com</RTDB-PRI>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+				<ExtLink LinkName="Open Launch Issues" LinkDesc="Open Launch Issues">
+					<![CDATA[https://fis2go.ford.com/x/FISOpenLaunchIssues]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="ru-RU" CultureCode="0x0419" Icon="rus.png" ISO639-1="RU" ISO639-2="RUS" ISO639x="RUS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[http://SDG08418.itek.ford.com/FISHM]]></HealthMon>
+				<HomePage><![CDATA[http://SDG08418.itek.ford.com/FIS]]></HomePage>
+				<SupportMon><![CDATA[Not Assigned]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG08418.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG08418.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG08418.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG08418.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG08426.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG08426.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05771.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG08418.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="True">
+					<AreaName><![CDATA[Area 1]]></AreaName>
+					<FISAdmin CDSID="BDEGUIRE" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2016 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08419.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG08419.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG08419.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG08419.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08426.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG08419.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB2" DBName-EG="EGatewayDB2" InLaunch="True">
+					<AreaName><![CDATA[Area 2]]></AreaName>
+					<FISAdmin CDSID="BDEGUIRE" OnSplashScreen="True"><![CDATA[Brandon Deguire (BDEGUIRE)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2016 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG08437.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG08437.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG08437.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG08437.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG08426.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG08437.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+		<Site Code="DEV-VO-NG" BuildingCode="5297" FISVersion="Not Assigned" Region="NA" ShowPlantList="True" UnionLogo="UAWLogo.png">
+			<SiteName><![CDATA[DEV-VO Next Gen]]></SiteName>
+			<ITManager CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Neil Gan (LGAN4)]]></ITManager>
+			<Logon DXDMirror="False" OSVersion="Windows 2012 R2 Standard">SDG04206.itek.ford.com</Logon>
+			<ODB DBName="Not Assigned" OSVersion="Windows 2012 R2 Standard">SDG04210.itek.ford.com</ODB>
+			<ExtLinks>
+				<ExtLink LinkName="FIS-2-GO" LinkDesc="The mobile-ready solution for cross-department, cross-plant reporting and KPI analysis.">
+					<![CDATA[https://www.fis2go.ford.com]]>
+				</ExtLink>
+				<ExtLink LinkName="FIS-News Mailing List" LinkDesc="Get the latest news about FIS">
+					<![CDATA[http://bulkmail.ford.com/~bulkmail/Subscriptions.cgi?list=Z0073234]]>
+				</ExtLink>
+				<ExtLink LinkName="Open Launch Issues" LinkDesc="Open Launch Issues">
+					<![CDATA[https://fis2go.ford.com/x/FISOpenLaunchIssues]]>
+				</ExtLink>
+			</ExtLinks>
+			<FIS_ClientPackages>
+				<FIS_ClientPackage Version="4.1.3">
+					<![CDATA[https://fis2go.ford.com/x/FISCurrentClient]]>
+				</FIS_ClientPackage>
+			</FIS_ClientPackages>
+			<FIS_Clients>
+			</FIS_Clients>
+			<Languages>
+				<Language CultureName="en-US" CultureCode="0x0409" Icon="usa.png" ISO639-1="EN" ISO639-2="ENG" ISO639x="ENU" />
+				<Language CultureName="zh-CN" CultureCode="0x0804" Icon="chi.png" ISO639-1="ZH" ISO639-2="ZHO" ISO639x="CHS"/>
+				<Language CultureName="de-DE" CultureCode="0x0407" Icon="ger.png" ISO639-1="DE" ISO639-2="DEU" ISO639x="DEU"/>
+			</Languages>
+			<Launchers>
+				<Launcher LauncherName="OpenReportWindow" LinkName="480 Summary Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="485 Detail Report" />
+				<Launcher LauncherName="OpenReportWindow" LinkName="490 Cross Plant Report" />
+				<Launcher LauncherName="runAP" LinkName="Current Inventory Levels" />
+				<Launcher LauncherName="runAP" LinkName="Default User" />
+				<Launcher LauncherName="runAP" LinkName="MI Admin" />
+				<Launcher LauncherName="runAP" LinkName="RCA" />
+				<Launcher LauncherName="runAP" LinkName="Shift Editor" />
+			</Launchers>
+			<Links>
+				<BOM><![CDATA[Not Assigned]]></BOM>
+				<HealthMon><![CDATA[Not Assigned]]></HealthMon>
+				<HomePage><![CDATA[Not Assigned]]></HomePage>
+				<SupportMon><![CDATA[Not Assigned]]></SupportMon>
+			</Links>
+			<SS_Links>
+				<SS_Link Category="FirstPAGE" Name="FPAM Web Admin"><![CDATA[http://SDG04206.itek.ford.com:81/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FP Web Admin"><![CDATA[http://SDG04206.itek.ford.com:82/]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Lobby Pager"><![CDATA[http://SDG04206.itek.ford.com/FISLP]]></SS_Link>
+				<SS_Link Category="FirstPAGE" Name="FIS Web Pager"><![CDATA[http://SDG04206.itek.ford.com/FISWP]]></SS_Link>
+				<SS_Link Category="Reporting" Name="480 Summary Report"><![CDATA[http://SDG04210.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=480&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="485 Detail Report"><![CDATA[http://SDG04210.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=485&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="Reporting" Name="490 Cross Plant Report"><![CDATA[http://SDG05771.itek.ford.com/FISODB/ReportLoadScreen/SelectUsageReportCriteria.asp?ReportID=490&LanguageID=~1&UserID=~2]]></SS_Link>
+				<SS_Link Category="FIS Users" Name="Andon on Web"><![CDATA[http://SDG04206.itek.ford.com/FISAOTW/]]></SS_Link>
+			</SS_Links>
+			<Areas>
+				<Area AreaSAKey="1" DBName-AP="ActivplantDB1" DBName-EG="EGatewayDB1" InLaunch="True">
+					<AreaName><![CDATA[Area 1]]></AreaName>
+					<FISAdmin CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG04207.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=1&apserver=SDG04207.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=1&apserver=SDG04207.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=1&apserver=SDG04207.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG04210.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=1]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=1&apserver=SDG04207.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+				<Area AreaSAKey="2" DBName-AP="ActivplantDB2" DBName-EG="EGatewayDB2" InLaunch="True">
+					<AreaName><![CDATA[Area 2]]></AreaName>
+					<FISAdmin CDSID="LGAN4" OnSplashScreen="True"><![CDATA[Kevin Mark (KMARK11)]]></FISAdmin>
+					<APP APSupportCode="Not Assigned" LMA="False" OSVersion="Windows 2012 R2 Standard" RCA="False" InvLevel="False" P3Linked="False" LMAFullScreen="True">SDG04208.itek.ford.com</APP>
+					<Area_Links>
+						<Area_Link Category="FIS Admins" Name="MI Admin"><![CDATA[run.asp?dir=miadmin&bo=&areaid=2&apserver=SDG04208.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Admins" Name="Default User"><![CDATA[run.asp?dir=Defuser&bo=&areaid=2&apserver=SDG04208.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="FIS Users" Name="Shift Editor"><![CDATA[run.asp?dir=shift&bo=&areaid=2&apserver=SDG04208.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+						<Area_Link Category="Reporting" Name="Repository"><![CDATA[http://SDG04210.itek.ford.com/FISODB/FordReportScheduler/Repository.aspx?AreaID=2]]></Area_Link>
+						<Area_Link Category="" Name="VPWeb"><![CDATA[run.asp?dir=vpweb&bo=&areaid=2&apserver=SDG04208.itek.ford.com/&username=~1&p=~2]]></Area_Link>
+					</Area_Links>
+					<DXDs>
+					</DXDs>
+				</Area>
+			</Areas>
+		</Site>
+	</Row>
+</ServerInfo>

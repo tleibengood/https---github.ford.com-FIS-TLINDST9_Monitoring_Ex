@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95a31d11-fcb6-4b41-b670-bf4624f759a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20200923_1904aepMonitoring/src/assets/hierarchy.json" beforeDir="false" afterPath="$PROJECT_DIR$/20200923_1904aepMonitoring/src/assets/hierarchy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/drag-example/drag-example.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/drag-example/drag-example.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/example-page/example-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/20201002_1151aepMonitoring/src/app/example-page/example-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/example-page/example-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/nav/nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/services/exportPDF/export-pdf.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/services/exportPDF/export-pdf.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/services/exportPDF/export-pdf.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/app/services/exportPDF/export-pdf.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/_extensions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/_extensions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/_webcore.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/_webcore.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_data.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_data.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_menus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_menus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_overlays.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/extensions/_overlays.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/blue-oval-theme/webcore/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/designer/_data.scss" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/assets/designer/_data.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/2020_1005_1342frf-starter/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TLINDST9/aepMonitoring/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aepMonitoring/src/app/sharedModule/hierarchy/hierarchy-tree.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/aepMonitoring/src/app/sharedModule/hierarchy/hierarchy-tree.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frf-starter/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frf-starter/src/app/example-page/example-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frf-starter/src/app/example-page/example-page.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iwMxcRJw5NsmZXQnitHoUSXeOH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95a31d11-fcb6-4b41-b670-bf4624f759a0" name="Default Changelist" comment="" />
+      <created>1602814450632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602814450632</updated>
+      <workItem from="1602814452033" duration="334000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

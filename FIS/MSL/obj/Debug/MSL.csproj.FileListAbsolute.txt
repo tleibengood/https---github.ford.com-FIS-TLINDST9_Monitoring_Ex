@@ -1,0 +1,12 @@
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\bin\MSL.dll.config
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\bin\MSL.dll
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\bin\MSL.pdb
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\obj\Debug\MSL.dll
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\obj\Debug\MSL.pdb
+C:\Users\tlindst9\GitWorkspace\FIS\FISSupportMonitor\FISSupportMonitor\xml\MSL\obj\Debug\MSL.csprojResolveAssemblyReference.cache
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\bin\MSL.dll.config
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\bin\MSL.dll
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\bin\MSL.pdb
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\obj\Debug\MSL.csprojResolveAssemblyReference.cache
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\obj\Debug\MSL.dll
+C:\Users\tlindst9\GitWorkspace\FIS\MSL\obj\Debug\MSL.pdb

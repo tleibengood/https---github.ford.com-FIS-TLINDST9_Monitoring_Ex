@@ -1,0 +1,21 @@
+﻿@model TLindst9.ADFSWebApp.Models.UserClaimsModel
+
+<h2>User Claims Summary</h2>
+<p>Hello, @User.Identity.Name!</p>
+<ul>
+    @if (Model.Claims != null)
+    {
+        foreach (var claim in Model.Claims)
+        {
+            <text>
+                <li>@claim.Type - @claim.Value</li>
+            </text>
+        }
+    }
+    else
+    {
+        <text>
+            <li>No claims available</li>
+        </text>
+    }
+</ul>

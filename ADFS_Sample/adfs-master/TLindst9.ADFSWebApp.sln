@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{B2551A0D-0DEE-4A08-986E-335AF8773713}"
+	ProjectSection(SolutionItems) = preProject
+		Project\Web.config = Project\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6B661C53-9587-4D4E-A8CB-37806438D8D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{6801E1CA-4CDB-4CB1-817B-2B1043940D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Config", "App_Config", "{EC51AFE0-4A28-41F3-AB6F-DF670BACFB9C}"
+	ProjectSection(SolutionItems) = preProject
+		Project\App_Config\ConnectionStrings.config = Project\App_Config\ConnectionStrings.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{4320D830-93E7-49F0-85EA-4C3C77D4DFB9}"
+	ProjectSection(SolutionItems) = preProject
+		Project\App_Config\Security\Domains.config = Project\App_Config\Security\Domains.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLindst9.ADFSWebApp", "TLindst9.ADFSWebApp\TLindst9.ADFSWebApp.csproj", "{63353121-FD58-4CE8-9872-D3AB923967D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63353121-FD58-4CE8-9872-D3AB923967D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63353121-FD58-4CE8-9872-D3AB923967D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63353121-FD58-4CE8-9872-D3AB923967D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63353121-FD58-4CE8-9872-D3AB923967D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC51AFE0-4A28-41F3-AB6F-DF670BACFB9C} = {B2551A0D-0DEE-4A08-986E-335AF8773713}
+		{4320D830-93E7-49F0-85EA-4C3C77D4DFB9} = {EC51AFE0-4A28-41F3-AB6F-DF670BACFB9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C477C2D9-ECEE-4DB8-9EC3-5A96E39F4ACE}
+	EndGlobalSection
+EndGlobal

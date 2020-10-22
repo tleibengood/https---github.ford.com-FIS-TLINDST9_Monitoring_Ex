@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Test App for ADFS";
+}
+
+<div class="jumbotron">
+    <h1>Successfully logged in via ADFS</h1>
+    <h3>Identity details:  @ViewBag.IdentityDetails </h3>
+    <p class="lead">Below is a list of Claims from ADFS</p>
+
+    <p></p>
+</div>
+<div>
+    <ul>
+        @if (Model.Claims != null)
+        {
+            foreach (var claim in Model.Claims)
+            {
+                <text>
+                    <li>@claim.Type - @claim.Value</li>
+                </text>
+            }
+        }
+        else
+        {
+            <text>
+                <li>No claims available</li>
+            </text>
+        }
+    </ul>
+</div>
+

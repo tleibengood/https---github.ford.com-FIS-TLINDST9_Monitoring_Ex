@@ -1,0 +1,158 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:linen;
+}
+
+
+table.grid {
+    width: 900px;
+    align-items:center;
+}
+
+table.outside {
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    background-color: #000000;
+    padding: 1px 1px;
+    align-items:center;
+    text-align: center;
+}
+
+table.inside {
+    border: 1px solid black;
+    width: 380px;
+    height: 600px;
+    background-color: #C0C0C0;
+    align-items:center;
+    text-align: center;
+}
+
+td {
+    align-content:center;
+    align-items:center;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 9px;
+}
+
+td.white {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FFFFFF;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+td.slblue {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #00FFFF;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.sred {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FF0000;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.syellow {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FFFF00;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.sorange {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FA7330;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.spink {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FAC1F3;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.stan {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #C9C3B7;
+    align-items:center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+td.header {
+        align-content:center;
+        text-align: center;
+        vertical-align: text-top;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+
+table.lblue {
+    border: 1px solid black;
+    width: 350px;
+    background-color: #00FFFF;
+}
+
+table.red {
+    border: 1px solid black;
+    width: 350px;
+    background-color: #FF0000;
+}
+
+table.tan {
+    border: 1px solid black;
+    width: 350px;
+    background-color: #C9C3B7;
+}
+
+
+
+table.sgreen {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #00FF00;
+}
+
+table.swhite {
+    border: 1px solid black;
+    width: 120px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+a.header {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
